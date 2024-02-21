@@ -21,12 +21,24 @@ export default function RootLayout({
       <nav className="bg-green-500 p-2 flex gap-5 px-2">
       <Link href="/" className="text-white font-bold">Home</Link>
       <Link href='dashboard' className="text-white font-bold"> Dashboard</Link>
+      <Link href='aboutUs' className="text-white font-bold"> About Us</Link>
+      {/* <Link href='dashboard/settings' className="text-white font-bold"> Settings</Link> */}
+
 
       </nav>
 
+      
+
       {children}
+      <footer className="text-center bg-gray-500 p-5 justify-center">
+        <p>&copy; -All rights rights reserved.</p>
+      </footer>
+      
       </body>
       
+     
+    
     </html>
+    
   );
 }

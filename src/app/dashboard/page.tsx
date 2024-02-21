@@ -1,10 +1,20 @@
+import Link from 'next/link'
 import React from 'react'
 
 function dashboard() {
   return (
+    
     <div>
-      <h2>This is Dashboard</h2>
+      <header className='bg-green-200'>
+        
+        <Link href='/dashboard/settings'> Settings</Link>
+      </header>
+      <div className='text-center'>
+      <h2 >This is Dashboard</h2>
       <p>I am trying to build routes</p>
+      </div>
+
+      
     </div>
   )
 }

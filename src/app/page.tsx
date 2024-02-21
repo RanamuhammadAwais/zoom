@@ -10,7 +10,7 @@ import pic from "@../../../public/lap.jpg"
 export default function Home() {
   return (
     <main className="font-bold px-4 py-4">
-      <div className="text-2xl text-green-400">Hello World</div>
+      <div className="text-2xl text-green-400">Hello to the World</div>
       <p className="text-center text-6xl text-yellow-500">
         This is a vercel project
       </p>
@@ -37,6 +37,9 @@ export default function Home() {
       <div className="text-center">
         <p className="font-bold color text-blue-500">Here by clicking below you will reach to the Dashboard Route</p>
         <Link href="/dashboard" className="text-cyan-400 "> Dashboard</Link> 
+      </div>
+      <div>
+        <Link target='_blank' href='https://www.facebook.com/rmamarkets'>My Company Page</Link>
       </div>
     </main>
   );
