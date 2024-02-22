@@ -7,7 +7,7 @@ function dashboard() {
     <div>
       <header className='bg-green-200'>
         
-        <Link href='/dashboard/settings'> Settings</Link>
+        
       </header>
       <div className='text-center'>
       <h2 >This is Dashboard</h2>
